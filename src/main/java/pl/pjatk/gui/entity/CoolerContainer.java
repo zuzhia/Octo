@@ -12,9 +12,4 @@ public class CoolerContainer {
     int pojemnosc;
     int temperatura_w_srodku;
 
-    
-
-
-    }
-
 }
