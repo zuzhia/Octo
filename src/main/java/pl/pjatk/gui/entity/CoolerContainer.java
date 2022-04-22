@@ -3,10 +3,10 @@ package pl.pjatk.gui.entity;
 public class CoolerContainer {
 
     private int id;
-    private int weight_netto;
-    private int weight_brutto;
-    private String sender;
+    private int weightNetto;
+    private int weightBrutto;
     private int volume;
-    private int temperature_inside_container;
-
+    private int temperatureInsideContainer;
+    private String sender;
+    private String color; 
 }
