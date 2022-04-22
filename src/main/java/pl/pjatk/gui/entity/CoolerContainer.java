@@ -4,12 +4,13 @@ import java.util.Random;
 
 public class CoolerContainer {
 
-    Random losowy = new Random();
-    int id = losowy.nextInt(1000);
-    int waga_netto;
-    int waga_brutto;
-    String nadawca;
-    int pojemnosc;
-    int temperatura_w_srodku;
+    Random random = new Random();
+    int id = random.nextInt(1000);
+    int WeightNetto;
+    int Weight_Brutto;
+    String Sender;
+    int Volume;
+    int TemperatureInsideContainer;
+    String Color;
 
 }
