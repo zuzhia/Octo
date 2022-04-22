@@ -1,12 +1,12 @@
 package pl.pjatk.gui.entity;
 
-public class BasicContainer extends HeavyContainer {
+public class BasicContainer{
 
     private int id;
-    private int weight_netto;
-    private int weight_brutto;
-    private String sender;
+    private int weightNetto;
+    private int weightBrutto;
     private int volume;
+    private String sender;
     private String color;
 
 
