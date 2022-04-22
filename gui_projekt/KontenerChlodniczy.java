@@ -12,8 +12,7 @@ public class KontenerChlodniczy{
     int pojemnosc;
     int temperatura_w_srodku;
 
-    public void KontenerChlodniczy(int waga_netto, int waga_brutto, String nadawca, int pojemnosc,
-                                   int temperatura_w_srodku){
+    
 
 
     }
