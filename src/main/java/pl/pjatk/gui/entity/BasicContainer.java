@@ -1,17 +1,13 @@
 package pl.pjatk.gui.entity;
 
-import java.util.Random;
-
 public class BasicContainer extends HeavyContainer {
 
-    Random random = new Random();
-    int id = random.nextInt(1000);
-    int WeightNetto;
-    int WeightBrutto;
-    String Sender;
-    int Volume;
-    String Color;
-
+    private int id;
+    private int weight_netto;
+    private int weight_brutto;
+    private String sender;
+    private int volume;
+    private String color;
 
 
 }

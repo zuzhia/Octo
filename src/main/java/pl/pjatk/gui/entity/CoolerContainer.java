@@ -1,16 +1,12 @@
 package pl.pjatk.gui.entity;
 
-import java.util.Random;
-
 public class CoolerContainer {
 
-    Random random = new Random();
-    int id = random.nextInt(1000);
-    int WeightNetto;
-    int Weight_Brutto;
-    String Sender;
-    int Volume;
-    int TemperatureInsideContainer;
-    String Color;
+    private int id;
+    private int weight_netto;
+    private int weight_brutto;
+    private String sender;
+    private int volume;
+    private int temperature_inside_container;
 
 }
