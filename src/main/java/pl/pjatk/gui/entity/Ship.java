@@ -1,13 +1,18 @@
 package pl.pjatk.gui.entity;
 
+import lombok.Data;
+
+@Data
 public class Ship {
+    private int id;
+    private String name;
+    private String homePort;
+    private String cargoSource;
+    private String cargoDestination;
 
-    int id;
-    String nazwa_statku;
-    String nazwa_portu;
-    String lokalizacja_zrodlowa;
-    String lokalizacja_docelowa;
-
-
-
+    private int maxToxicOrExplosiveContainerCount;
+    private int maxHeavyContainerCount;
+    private int maxCoolerContainerCount;
+    private int maxContainerCount;
+    private double maxWeightLoad;
 }
