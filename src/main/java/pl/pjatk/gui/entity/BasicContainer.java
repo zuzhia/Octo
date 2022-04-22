@@ -1,14 +1,13 @@
 package pl.pjatk.gui.entity;
 
-import lombok.Data;
+public class BasicContainer{
 
-@Data
-public class BasicContainer {
     private int id;
-    private double netWeight;
-    private double grossWeight;
-    private double tare;
+    private int weightNetto;
+    private int weightBrutto;
+    private int volume;
     private String sender;
-    private double volume;
     private String color;
+
+
 }
