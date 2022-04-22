@@ -1,7 +1,5 @@
 package pl.pjatk.gui.entity;
 
-import java.util.Random;
-
 public class CoolerContainer {
 
     private int id;
