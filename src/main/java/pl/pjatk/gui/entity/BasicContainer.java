@@ -6,9 +6,11 @@ import lombok.Data;
 public class BasicContainer {
 
     private int id;
-    private int weightNetto;
-    private int weightBrutto;
+    private double weightNetto;
+    private double weightBrutto;
+    private double weightTara;
     private int volume;
     private String sender;
     private String color;
+
 }
