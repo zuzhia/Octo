@@ -1,13 +1,14 @@
 package pl.pjatk.gui.entity;
 
-public class BasicContainer extends HeavyContainer {
+import lombok.Data;
 
+@Data
+public class BasicContainer {
     private int id;
-    private int weight_netto;
-    private int weight_brutto;
+    private double netWeight;
+    private double grossWeight;
+    private double tare;
     private String sender;
-    private int volume;
+    private double volume;
     private String color;
-
-
 }

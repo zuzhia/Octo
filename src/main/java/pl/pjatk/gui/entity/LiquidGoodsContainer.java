@@ -1,6 +1,4 @@
 package pl.pjatk.gui.entity;
 
-public class LiquidGoodsContainer {
-
-    int id;
+public class LiquidGoodsContainer extends BasicContainer {
 }
