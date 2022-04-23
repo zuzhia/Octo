@@ -15,4 +15,6 @@ public class Ship {
     private int maxCoolerContainerCount;
     private int maxContainerCount;
     private double maxWeightLoad;
+    
+    List<BasicContainer> containers;
 }
