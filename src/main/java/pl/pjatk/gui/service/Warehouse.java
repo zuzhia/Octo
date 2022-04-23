@@ -20,4 +20,12 @@ public class Warehouse {
     public static Warehouse getWarehouse() {
         return instance == null ? new Warehouse() : instance;
     }
+
+    // TODO NADPISAĆ
+    @Override
+    public String toString() {
+        return "Warehouse{" +
+                "containers=" + containers +
+                '}';
+    }
 }

@@ -20,4 +20,12 @@ public class Harbour {
     public static Harbour getHarbour() {
         return instance == null ? new Harbour() : instance;
     }
+
+    // TODO NADPISAĆ
+    @Override
+    public String toString() {
+        return "Harbour{" +
+                "ships=" + ships +
+                '}';
+    }
 }
