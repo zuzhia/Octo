@@ -25,8 +25,9 @@ public class Sender {
             int year = getYear(pesel.substring(0, 2), pesel.substring(2, 3));
             return LocalDate.of(year, month, day);
         } catch (Exception e) {
-            System.out.println("Cannot read date from PESEL number." + e.getMessage());
-            return null;
+            String message = "Cannot read date from PESEL number." + e.getMessage();
+            System.out.println(message);
+            throw new RuntimeException(message);
         }
     }
 
