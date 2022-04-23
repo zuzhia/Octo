@@ -1,7 +1,5 @@
 package pl.pjatk.gui.entity;
 
-public class HeavyContainer extends BasicContainer{
-    
-    private 
-
+public class HeavyContainer extends BasicContainer {
+    // TODO unikalna własność
 }
